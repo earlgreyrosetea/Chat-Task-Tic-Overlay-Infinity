@@ -23,7 +23,7 @@ const configs = (function () {
 
 	// task list
 	const taskListBackgroundColor = "#ff0000"; // hex only
-	const taskListBackgroundOpacity = 0.8; // must be between 0 and 1
+	const taskListBackgroundOpacity = 1; // must be between 0 and 1
 
 	const taskListBorderColor = "#00ff00"; // hex or name
 	const taskListBorderWidth = "0px"; // must have px at the end
@@ -33,22 +33,22 @@ const configs = (function () {
 
 	// header
 	const headerHeight = "60px"; // must have px at the end
-	const headerBackgroundColor = "#000"; // hex only
+	const headerBackgroundColor = "#4064a3"; // hex only
 	const headerBackgroundOpacity = 0.6; // must be between 0 and 1
 
-	const headerBorderColor = "white"; // hex or name
+	const headerBorderColor = "#4064a3"; // hex or name
 	const headerBorderWidth = "2px"; // must have px at the end
 	const headerBorderRadius = "10px"; // must have px at the end
 
 	const headerFontSize = "30px"; // must have px at the end
-	const headerFontColor = "white"; // hex or name
+	const headerFontColor = "#122340"; // hex or name
 
 	const headerPadding = "10px"; // must have px at the end
 	const tasksNumberFontSize = "30px"; // must have px at the end
 
 	// body
 	const bodyBackgroundColor = "#00ff00"; // hex only
-	const bodyBackgroundOpacity = 0; // must be between 0 and 1
+	const bodyBackgroundOpacity = 1; // must be between 0 and 1
 
 	const bodyBorderColor = "white"; // hex or name
 	const bodyBorderWidth = "0px"; // must have px at the end
@@ -68,7 +68,7 @@ const configs = (function () {
 	const taskBackgroundOpacity = 0.8; // must be between 0 and 1
 
 	const taskFontSize = "25px"; // must have px at the end
-	const taskFontColor = "white"; // hex or name
+	const taskFontColor = "#122340"; // hex or name
 
 	const taskBorderColor = "black"; // hex or name
 	const taskBorderWidth = "0px"; // must have px at the end
@@ -82,16 +82,16 @@ const configs = (function () {
 
 	// done task
 	const doneTaskBackgroundColor = "#000"; // hex only
-	const doneTaskBackgroundOpacity = 0.5; // must be between 0 and 1
+	const doneTaskBackgroundOpacity = 1; // must be between 0 and 1
 
-	const doneTaskFontColor = "#bbb"; // hex or name
+	const doneTaskFontColor = "#122340"; // hex or name
 
 	// checkbox - if enabled
 	const checkBoxSize = "20px"; // must have px at the end
 	const checkBoxBackgroundColor = "#000"; // hex only
-	const checkBoxBackgroundOpacity = 0; // must be between 0 and 1
+	const checkBoxBackgroundOpacity = 1; // must be between 0 and 1
 
-	const checkBoxBorderColor = "white"; // hex or name
+	const checkBoxBorderColor = "#122340"; // hex or name
 	const checkBoxBorderWidth = "1px"; // must have px at the end
 	const checkBoxBorderRadius = "3px"; // must have px at the end
 
@@ -101,7 +101,7 @@ const configs = (function () {
 
 	const tickCharacter = "'✔'"; // any character, must be in single quotes
 	const tickSize = "18px"; // must have px at the end
-	const tickColor = "white"; // hex or name
+	const tickColor = "#122340"; // hex or name
 	const tickTranslateY = "4px"; // must have px at the end
 
 	// bullet point - if enabled
